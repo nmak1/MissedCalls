@@ -29,10 +29,10 @@ public class Main {
                 break;
             } else {
                 switch (input) {
-                    case 1 -> fiillContacst(contacts, new Scanner(in));
-                    case 2 -> addMissedCalls(missedCalls, new Scanner(in));
-                    case 3 -> missedCalls.printMissedCalls(contacts);
-                    case 4 -> missedCalls.clear();
+                    case 1 -> fiillContacst(contacts, new Scanner(in)); // Добавить контакт
+                    case 2 -> addMissedCalls(missedCalls, new Scanner(in)); // Добавить пропущеный вызов
+                    case 3 -> missedCalls.printMissedCalls(contacts); // Печать пропущенных вызовов
+                    case 4 -> missedCalls.clear();// Стереть пропущенные вызовы
                     default -> {
                     }
                 }
